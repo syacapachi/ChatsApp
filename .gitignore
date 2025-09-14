@@ -12,6 +12,7 @@
 /[Uu]ser[Ss]ettings/
 *.log
 
+
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
 *.blend1.meta
@@ -97,3 +98,48 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Firebase/
+/[Aa]ssets/Firebase/
+/[Aa]ssets/Editor Default Resources/
+/[Aa]ssets/ExternalDependencyManager/
+/[Aa]ssets/Plugins/
+
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Firebase specific files and directories
+firebase-debug.log
+firebase-debug.*.log
+.runtimeconfig.json
+.firebase/
+.firebaserc
+firestore.indexes.json
+firestore.rules
+storage.rules
+hosting/
+functions/
+database.rules.json
+
+# Environment variables and sensitive data
+.env
+*.local # CLI release notes mention this (e.g., .env.local)
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Build outputs (e.g., for Hosting)
+build/
+dist/
+public/ # If it's your build output directory
